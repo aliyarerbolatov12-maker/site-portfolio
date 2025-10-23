@@ -10,7 +10,7 @@ const projects = [
     title: "Clothing Store",
     description: "E-commerce mockup. React, Tailwind, Cart, Filters.",
     img: img1,
-    link: "#",
+    link: "https://clothing-store-v2-git-hotfix-d-6a7426-aliyars-projects-937b12b5.vercel.app?_vercel_share=RHQOXlWMtcl1cMRVO0scftAlBLszsRWj",
     tags: ["Next", "Ts", "Tailwind"],
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     description:
       "Creating boards, lists, and cards with drag & drop and Kanban systems.",
     img: img2,
-    link: "#",
+    link: "https://clone-trello-frontend-delta.vercel.app",
     tags: ["React", "Ts", "Tailwind"],
   },
   {
