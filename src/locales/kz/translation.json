@@ -1,0 +1,70 @@
+{
+  "about": {
+    "me": "Мен туралы",
+    "intro": "Сәлем, мен <span class='highlight'>Алияр Ерболатов</span> — қызығушылығы артып келе жатқан <span class='highlight'>Frontend Developer</span> және backend және full-stack технологияларына қызығушылық танытамын. Мен <span class='highlight'>React, TypeScript және TailwindCSS</span> пайдаланып заманауи және жауапты веб-қосымшаларды жасағанды ұнатамын.",
+    "algo_thinking": "Соңғы уақытта мен алгоритмдік ойлауымды жақсартудамын <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a> — нақты әлем мәселелерін шешіп, бағдарламалау дағдыларымды жетілдіріп жатырмын.",
+    "github": "GitHub",
+    "projects": "Менің жобаларым"
+  },
+  "projects": {
+    "title": "Жобалар",
+    "items": [
+      {
+        "title": "Киім дүкені",
+        "description": "E-commerce макеті. React, Tailwind, себет, сүзгілер.",
+        "tags": ["Next", "Ts", "Tailwind"]
+      },
+      {
+        "title": "Trello клоны",
+        "description": "Тақталар, тізімдер және карточкаларды drag & drop арқылы жасау, Kanban жүйесімен.",
+        "tags": ["React", "Ts", "Tailwind"]
+      },
+      {
+        "title": "Жақында",
+        "description": "Жақында.",
+        "tags": ["React", "Tailwind", "CMS"]
+      }
+    ]
+  },
+  "nav": {
+    "about": "Мен туралы",
+    "projects": "Жобалар",
+    "skills": "Дағдылар",
+    "contact": "Байланыс"
+  },
+  "skills": {
+    "title": "Менің дағдыларым",
+    "groups": [
+      {
+        "title": "Фронтенд",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "title": "Бэкенд",
+        "items": ["Node.js", "PostgreSQL", "Prisma"]
+      },
+      {
+        "title": "Құралдар",
+        "items": ["Vite", "GitHub"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Байланыс",
+    "items": [
+      { "key": "GitHub", "label": "GitHub" },
+      { "key": "LeetCode", "label": "LeetCode" },
+      { "key": "LinkedIn", "label": "LinkedIn" },
+      { "key": "Resume", "label": "Түйіндеме" }
+    ],
+    "copyright": "— Барлық құқықтар қорғалған"
+  }
+}

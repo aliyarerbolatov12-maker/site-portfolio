@@ -1,0 +1,70 @@
+{
+  "about": {
+    "me": "About Me",
+    "intro": "Hi, I'm <span class='highlight'>Aliyar Erbolatov</span> — a passionate <span class='highlight'>Frontend Developer</span> with a growing interest in backend and full-stack technologies. I enjoy building modern and responsive web apps using <span class='highlight'>React, TypeScript, and TailwindCSS</span>.",
+    "algo_thinking": "Recently, I’ve been improving my algorithmic thinking on <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a> — solving real-world problems and strengthening my coding skills.",
+    "github": "GitHub",
+    "projects": "My Projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Clothing Store",
+        "description": "E-commerce mockup. React, Tailwind, Cart, Filters.",
+        "tags": ["Next", "Ts", "Tailwind"]
+      },
+      {
+        "title": "Clone Trello",
+        "description": "Creating boards, lists, and cards with drag & drop and Kanban systems.",
+        "tags": ["React", "Ts", "Tailwind"]
+      },
+      {
+        "title": "Coming Soon",
+        "description": "Coming soon.",
+        "tags": ["React", "Tailwind", "CMS"]
+      }
+    ]
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "skills": {
+    "title": "My Skills",
+    "groups": [
+      {
+        "title": "Frontend",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": ["Node.js", "PostgreSQL", "Prisma"]
+      },
+      {
+        "title": "Dev Tools",
+        "items": ["Vite", "GitHub"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "items": [
+      { "key": "GitHub", "label": "GitHub" },
+      { "key": "LeetCode", "label": "LeetCode" },
+      { "key": "LinkedIn", "label": "LinkedIn" },
+      { "key": "Resume", "label": "Resume" }
+    ],
+    "copyright": "— All rights reserved"
+  }
+}

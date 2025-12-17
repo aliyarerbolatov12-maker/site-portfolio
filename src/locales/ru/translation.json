@@ -1,0 +1,71 @@
+{
+  "about": {
+    "me": "Обо мне",
+    "intro": "Привет, я <span class='highlight'>Алияр Ерболатов</span> — увлечённый <span class='highlight'>Frontend Developer</span> с растущим интересом к бэкенду и full-stack технологиям. Я люблю создавать современные и адаптивные веб-приложения, используя <span class='highlight'>React, TypeScript и TailwindCSS</span>.",
+    "algo_thinking": "Недавно я начал улучшать свои алгоритмические навыки на <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a>, решая реальные задачи и укрепляя свои навыки кодирования.",
+    "github": "GitHub",
+    "projects": "Мои проекты"
+  },
+  "projects": {
+    "title": "Проекты",
+    "items": [
+      {
+        "title": "Магазин одежды",
+        "description": "Макет e-commerce. React, Tailwind, корзина, фильтры.",
+        "tags": ["Next", "Ts", "Tailwind"]
+      },
+      {
+        "title": "Клон Trello",
+        "description": "Создание досок, списков и карточек с drag & drop и системой Kanban.",
+        "tags": ["React", "Ts", "Tailwind"]
+      },
+      {
+        "title": "Скоро",
+        "description": "Скоро.",
+        "tags": ["React", "Tailwind", "CMS"]
+      }
+    ]
+  },
+  "nav": {
+    "about": "Обо мне",
+    "projects": "Проекты",
+    "skills": "Навыки",
+    "contact": "Контакты"
+  },
+
+  "skills": {
+    "title": "Мои навыки",
+    "groups": [
+      {
+        "title": "Фронтенд",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "title": "Бэкенд",
+        "items": ["Node.js", "PostgreSQL", "Prisma"]
+      },
+      {
+        "title": "Инструменты",
+        "items": ["Vite", "GitHub"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Свяжитесь со мной",
+    "items": [
+      { "key": "GitHub", "label": "GitHub" },
+      { "key": "LeetCode", "label": "LeetCode" },
+      { "key": "LinkedIn", "label": "LinkedIn" },
+      { "key": "Resume", "label": "Резюме" }
+    ],
+    "copyright": "— Все права защищены"
+  }
+}
