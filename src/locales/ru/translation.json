@@ -1,7 +1,7 @@
 {
   "about": {
     "me": "Обо мне",
-    "intro": "Привет, я <span class='highlight'>Алияр Ерболатов</span> — увлечённый <span class='highlight'>Frontend Developer</span> с растущим интересом к бэкенду и full-stack технологиям. Я люблю создавать современные и адаптивные веб-приложения, используя <span class='highlight'>React, TypeScript и TailwindCSS</span>.",
+    "intro": "Привет, я <span class='highlight'>Алияр Ерболатов</span> — увлечённый <span class='highlight'>Frontend Developer</span> с растущим интересом к backend и full-stack технологиям. Я люблю создавать современные и адаптивные веб-приложения с использованием <span class='highlight'>React, TypeScript и TailwindCSS</span>. В настоящее время я учусь в <span class='highlight'>ЦАТЭК College</span>.",
     "algo_thinking": "Недавно я начал улучшать свои алгоритмические навыки на <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a>, решая реальные задачи и укрепляя свои навыки кодирования.",
     "github": "GitHub",
     "projects": "Мои проекты"

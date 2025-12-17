@@ -1,8 +1,8 @@
 {
   "about": {
     "me": "Мен туралы",
-    "intro": "Сәлем, мен <span class='highlight'>Алияр Ерболатов</span> — қызығушылығы артып келе жатқан <span class='highlight'>Frontend Developer</span> және backend және full-stack технологияларына қызығушылық танытамын. Мен <span class='highlight'>React, TypeScript және TailwindCSS</span> пайдаланып заманауи және жауапты веб-қосымшаларды жасағанды ұнатамын.",
-    "algo_thinking": "Соңғы уақытта мен алгоритмдік ойлауымды жақсартудамын <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a> — нақты әлем мәселелерін шешіп, бағдарламалау дағдыларымды жетілдіріп жатырмын.",
+    "intro": "Сәлем, мен <span class='highlight'>Алияр Ерболатов</span> — Frontend Developer мамандығына қызығушылығы бар адаммын, сонымен қатар backend және full-stack технологияларға қызығушылығым өсіп келеді. Заманауи және адаптивті веб-қосымшаларды <span class='highlight'>React, TypeScript және TailwindCSS</span> пайдаланып жасауға ұнатамын. Қазіргі уақытта мен <span class='highlight'>ЦАТЭК College</span> оқимын.",
+    "algo_thinking": "Жақында мен алгоритмдік ойлауды <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a> сайтында жақсартып жүрмін — нақты мәселелерді шешіп, кодтау дағдыларымды нығайтып отырмын.",
     "github": "GitHub",
     "projects": "Менің жобаларым"
   },

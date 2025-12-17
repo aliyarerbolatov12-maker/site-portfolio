@@ -1,7 +1,7 @@
 {
   "about": {
     "me": "About Me",
-    "intro": "Hi, I'm <span class='highlight'>Aliyar Erbolatov</span> — a passionate <span class='highlight'>Frontend Developer</span> with a growing interest in backend and full-stack technologies. I enjoy building modern and responsive web apps using <span class='highlight'>React, TypeScript, and TailwindCSS</span>.",
+    "intro": "Hi, I'm <span class='highlight'>Aliyar Erbolatov</span> — a passionate <span class='highlight'>Frontend Developer</span> with a growing interest in backend and full-stack technologies. I enjoy building modern and responsive web apps using <span class='highlight'>React, TypeScript, and TailwindCSS</span>. I’m currently studying at <span class='highlight'>CATEC College</span>.",
     "algo_thinking": "Recently, I’ve been improving my algorithmic thinking on <a href='https://leetcode.com/u/aliyarerbolatov12-maker/' target='_blank' rel='noopener noreferrer' class='underline highlight'>LeetCode</a> — solving real-world problems and strengthening my coding skills.",
     "github": "GitHub",
     "projects": "My Projects"
