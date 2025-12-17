@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslation } from "react-i18next"; // <-- импорт i18n
+import { useTranslation } from "react-i18next";
+import { Link } from "react-scroll";
 import Container from "./Container";
 import LanguageSelect from "./ui/LanguageSelect";
 
@@ -9,22 +10,17 @@ const overlay = {
   visible: { opacity: 0.5 },
   exit: { opacity: 0 },
 };
-
-const panel = {
-  hidden: { x: "100%" },
-  visible: { x: 0 },
-  exit: { x: "100%" },
-};
+const panel = { hidden: { x: "100%" }, visible: { x: 0 }, exit: { x: "100%" } };
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
 
   const navLinks = [
-    { href: "#about", label: t("nav.about") },
-    { href: "#projects", label: t("nav.projects") },
-    { href: "#skills", label: t("nav.skills") },
-    { href: "#contact", label: t("nav.contact") },
+    { href: "about", label: t("nav.about") },
+    { href: "projects", label: t("nav.projects") },
+    { href: "skills", label: t("nav.skills") },
+    { href: "contact", label: t("nav.contact") },
   ];
 
   return (
@@ -34,15 +30,19 @@ export default function Header() {
           Aliyar Erbolatov
         </h1>
         <div className="flex-1" />
+
         <nav className="hidden md:flex gap-6">
           {navLinks.map((l) => (
-            <a
+            <Link
               key={l.href}
-              href={l.href}
-              className="hover:text-[#58A6FF] transition"
+              to={l.href}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              className="cursor-pointer hover:text-[#58A6FF] transition"
             >
               {l.label}
-            </a>
+            </Link>
           ))}
         </nav>
         <LanguageSelect />
@@ -86,14 +86,17 @@ export default function Header() {
               transition={{ duration: 0.3 }}
             >
               {navLinks.map((l) => (
-                <a
+                <Link
                   key={l.href}
-                  href={l.href}
+                  to={l.href}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
                   onClick={() => setOpen(false)}
-                  className="text-xl font-semibold hover:text-[#58A6FF]"
+                  className="text-xl font-semibold hover:text-[#58A6FF] cursor-pointer"
                 >
                   {l.label}
-                </a>
+                </Link>
               ))}
             </motion.aside>
           </>
