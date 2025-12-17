@@ -1,3 +1,5 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import Container from "./Container";
 
@@ -11,6 +13,8 @@ const textVariants = {
 };
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="about"
@@ -19,7 +23,6 @@ const About = () => {
     >
       <Container>
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
-          {/* Текст */}
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -31,44 +34,22 @@ const About = () => {
               custom={0}
               className="text-4xl font-bold text-[#58A6FF]"
             >
-              About <span className="text-[#C9D1D9]">Me</span>
+              {t("about.me")}
             </motion.h2>
 
             <motion.p
               variants={textVariants}
               custom={1}
               className="text-lg leading-relaxed text-gray-300"
-            >
-              Hi, I'm{" "}
-              <span className="text-[#58A6FF] font-semibold">
-                Aliyar Erbolatov
-              </span>{" "}
-              — a passionate{" "}
-              <span className="text-[#58A6FF]">Frontend Developer</span>
-              with a growing interest in backend and full-stack technologies. I
-              enjoy building modern and responsive web apps using{" "}
-              <span className="text-[#58A6FF]">
-                React, TypeScript, and TailwindCSS
-              </span>
-              .
-            </motion.p>
+              dangerouslySetInnerHTML={{ __html: t("about.intro") }}
+            ></motion.p>
 
             <motion.p
               variants={textVariants}
               custom={2}
               className="text-gray-400"
-            >
-              Recently, I’ve been improving my algorithmic thinking on{" "}
-              <a
-                href="https://leetcode.com/u/aliyarerbolatov12-maker/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-[#58A6FF] hover:text-[#79C0FF] transition"
-              >
-                LeetCode
-              </a>{" "}
-              — solving real-world problems and strengthening my coding skills.
-            </motion.p>
+              dangerouslySetInnerHTML={{ __html: t("about.algo_thinking") }}
+            ></motion.p>
 
             <motion.div
               variants={textVariants}
@@ -81,18 +62,17 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-[#58A6FF] text-[#0D1117] font-semibold rounded-lg hover:bg-[#79C0FF] transition-all"
               >
-                GitHub
+                {t("about.github")}
               </a>
               <a
                 href="#projects"
                 className="px-6 py-2 border border-[#58A6FF] text-[#58A6FF] font-semibold rounded-lg hover:bg-[#58A6FF] hover:text-[#0D1117] transition-all"
               >
-                My Projects
+                {t("about.projects")}
               </a>
             </motion.div>
           </motion.div>
 
-          {/* Карточка с именем */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
