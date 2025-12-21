@@ -6,7 +6,7 @@ import img1 from "../assets/image1.png";
 import img2 from "../assets/image2.png";
 
 const projectLinks = [
-  "https://clothing-store-v2-git-hotfix-d-6a7426-aliyars-projects-937b12b5.vercel.app?_vercel_share=RHQOXlWMtcl1cMRVO0scftAlBLszsRWj",
+  "https://clothing-store-v2.vercel.app",
   "https://clone-trello-frontend-delta.vercel.app",
   "#",
 ];
